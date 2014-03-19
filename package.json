@@ -3,7 +3,7 @@
     "name": "Rafael Kaufmann",
     "email": "rafael.kaufmann@resolveai.com.br"
   },
-  "name": "orm",
+  "name": "q-orm",
   "description": "Promise-based wrapper for node-orm2",
   "keywords": [
     "orm",
