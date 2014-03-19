@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Rafael Kaufmann",
+    "email": "rafael.kaufmann@resolveai.com.br"
+  },
+  "name": "orm",
+  "description": "Promise-based wrapper for node-orm2",
+  "keywords": [
+    "orm",
+    "q",
+    "promise"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rafaelkaufmann/q-orm.git"
+  },
+  "contributors": [
+  ],
+  "main": "./lib/q-orm",
+  "scripts": {
+  },
+  "engines": {
+    "node": "*"
+  },
+  "analyse": false,
+  "dependencies": {
+    "q": "",
+    "qx": "",
+    "orm": ""
+  },
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+}
