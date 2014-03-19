@@ -16,11 +16,7 @@
     "type": "git",
     "url": "https://github.com/rafaelkaufmann/q-orm.git"
   },
-  "contributors": [
-  ],
   "main": "./lib/q-orm",
-  "scripts": {
-  },
   "engines": {
     "node": "*"
   },
@@ -30,6 +26,5 @@
     "qx": "",
     "orm": ""
   },
-  "optionalDependencies": {},
   "readmeFilename": "README.md",
 }
