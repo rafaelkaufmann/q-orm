@@ -8,6 +8,7 @@
   "keywords": [
     "orm",
     "q",
+    "bluebird",
     "promise"
   ],
   "version": "0.0.1",
@@ -22,8 +23,7 @@
   },
   "analyse": false,
   "dependencies": {
-    "q": "",
-    "qx": "",
+    "bluebird": "",
     "orm": ""
   },
   "readmeFilename": "README.md"

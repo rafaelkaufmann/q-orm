@@ -34,11 +34,11 @@ return qOrm.qConnect('mysql://username:password@host/database')
 
 		people[0].age = 16;
 		return people[0].qSave()
-		.fail(function (err) {
+		.catch(function (err) {
 			console.log(err.stack);
 		});
 	});
 })
-.fail(function (err) {
+.catch(function (err) {
 	throw err;
 });

@@ -57,7 +57,8 @@ return qOrm.qConnect('mysql://username:password@host/database')
 
 ##Notes
 
-- All methods inherit their habitual parameters from their callback-based counterparts. (Behind the scenes, we use `Q.nbind`.)
+- (**NEW, BREAKING**) Due to performance differences, this library now uses [bluebird](https://github.com/petkaantonov/bluebird). Sorry that the name remains. This **will** result in breaking changes for anyone using `.fail` instead of `.catch`, or any other Q-specific features.
+- All methods inherit their habitual parameters from their callback-based counterparts. (Behind the scenes, we use `P.promisify`.)
 - This is very beta! Works on my application (it's been tested extensively in there), but does not have its own unit tests yet.
 - Features such as `orm.enforce`, `orm.eq`, etc. are not wrapped. If you need them (such as in the example), you have to `require('orm')` as well.
 
