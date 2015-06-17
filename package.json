@@ -3,6 +3,12 @@
     "name": "Rafael Kaufmann",
     "email": "rafael.kaufmann@resolveai.com.br"
   },
+  "contributors": [
+    {
+      "name": "Aleksandr Derbenev",
+      "email": "alex-ac@yandex-team.ru"
+    }
+  ],
   "name": "q-orm",
   "description": "Promise-based wrapper for node-orm2",
   "keywords": [
@@ -10,7 +16,7 @@
     "q",
     "promise"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",

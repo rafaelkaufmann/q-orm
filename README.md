@@ -49,8 +49,8 @@ return qOrm.qConnect('mysql://username:password@host/database')
 
 ##Supported methods
 
-- `qOrm.qConnect`
-- `db.qDefine, db.qExecQuery`
+- `qOrm.qConnect, qOrm.qExpress`
+- `db.qDefine, db.qExecQuery, db.qSync, db.qDrop`
 - `Model.qCreate, Model.qGet, Model.qOne, Model.qAll, Model.qCount, Model.qHasOne, Model.qHasMany`
 - `instance.qSave, instance.qRemove, instance.qValidate`
 - `instance.qGetAssociatedModel`, etc.
