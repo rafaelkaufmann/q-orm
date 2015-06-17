@@ -51,7 +51,7 @@ return qOrm.qConnect('mysql://username:password@host/database')
 
 - `qOrm.qConnect, qOrm.qExpress`
 - `db.qDefine, db.qExecQuery, db.qSync, db.qDrop`
-- `Model.qCreate, Model.qGet, Model.qOne, Model.qAll, Model.qCount, Model.qHasOne, Model.qHasMany`
+- `Model.qCreate, Model.qGet, Model.qOne, Model.qAll, Model.qCount, Model.qHasOne, Model.qHasMany, Model.qFind`
 - `instance.qSave, instance.qRemove, instance.qValidate`
 - `instance.qGetAssociatedModel`, etc.
 
